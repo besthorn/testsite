@@ -37,6 +37,9 @@
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="9e3d7f76-0624-48ca-98db-ab4ae2b3c6c4" />
   </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="9e3d7f76-0624-48ca-98db-ab4ae2b3c6c4" dataset="main.news_news" active-filter-id="" />
+  </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
@@ -72,7 +75,7 @@
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="3.3" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
@@ -81,8 +84,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="sqlite.db" schema="main" />
-            <file path="$PROJECT_DIR$/mysite/db.sqlite3" schema="" />
+            <file path="$PROJECT_DIR$/mysite/db.sqlite3" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
